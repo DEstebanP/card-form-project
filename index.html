@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="card-container">
+            <div class="cards-img-container">
+                <figure class="back-card">
+                    <img class="card-img back-card-img" src="./images/bg-card-back.png" alt="Card back image">
+                    <p class="cvc-card">000</p>
+                </figure>
+                <figure class="front-card">
+                    <img class="card-img front-card-img" src="./images/bg-card-front.png" alt="Front Card Image">
+                    <img class="logo-img" src="./images/card-logo.svg" alt="Card logo">
+                    <p class="number-card">0 0 0 0&nbsp;&nbsp;0 0 0 0&nbsp;&nbsp;0 0 0 0&nbsp;&nbsp;0 0 0 0</p>
+                    <p class="name-card">Jane Appleseed</p>
+                    <p class="date-card">00/00</p>
+                </figure>
+            </div>
+        </section>
+        <section class="form-container">
+            <form action="">
+                <label for="card-name">
+                    <span>CARDHOLDER NAME</span>
+                    <input type="text" placeholder="e.g. Jane Appleseed">   
+                </label>
+                <label for="card-number">
+                    <span>CARD NUMBER</span>
+                    <input type="text" placeholder="e.g. 1234 5678 9123 0000">
+                </label>
+                <label class="exp-date" for="exp-date">
+                    <span>EXP. DATE (MM/YY)</span>
+                    <input type="text" placeholder="MM">
+                    <input type="text" placeholder="YY">
+                </label>
+                <label class="cvc-form" for="cvc">
+                    <span>CVC</span>
+                    <input type="text" placeholder="e.g. 123">
+                </label>
+                <button class="submit-btn">Confirm</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
