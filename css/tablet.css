@@ -1,0 +1,49 @@
+.card-container, .cards-img-container {
+    height: 245px;
+}
+.card-img {
+    width: 320px;
+}
+
+.back-card-img {
+    height: 220px;
+}
+.cvc-card {
+    top: 104px;
+    left: calc(50% + 122px);
+}
+
+.front-card-img {
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 180px);
+}
+
+.logo-img {
+    position: absolute;
+    width: 60px;
+    top: -80px;
+    left: calc(50% - 160px);
+}
+.number-card {
+    left: calc(50% - 158px);
+    top: -5px;
+    font-size: 1.8rem;
+}
+.name-card {
+    top: 40px;
+    left: calc(50% - 158px);
+    font-size: 1.4rem;
+}
+.date-card {
+    top: 40px;
+    left: calc(50% + 70px);
+    font-size: 1.4rem;
+}
+
+.form-container {
+    margin-top: 75px;
+}
+form span {
+    font-size: 1.6rem;
+}
